@@ -2,6 +2,7 @@ def warn_unless(condition, message)
     unless condition == true
         puts "#{message}"
     else
+        #Do Nothing
     end
 end
 
